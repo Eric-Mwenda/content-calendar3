@@ -1,0 +1,44 @@
+### This file can be used to carry out http requests to the api just within the IntelliJ IDE without using tools like postman.
+
+### Get all the content.
+GET http://127.0.0.1:8080/api/v1/content
+
+### Get Random Math.
+GET http://127.0.0.1:8080/api/v1/content/getRandomMath
+
+### Get content by id. In this case, the first one.
+GET http://127.0.0.1:8080/api/v1/content/3
+
+### POST content as with a json body to the api.
+### in this you will have to provide the json body.
+POST http://127.0.0.1:8080/api/v1/content
+Content-Type: application/json
+
+{
+  "id": 3,
+  "title": "My Third Blog Post",
+  "description": "Describing my Third blog post.",
+  "status": "IDEA",
+  "contentType": "VIDEO",
+  "dateCreated": "2023-04-13T14:14:03.03593",
+  "dateUpdated": "2023-04-13T14:15:03.04393",
+  "url": "http://127.0.0.1:8080/api/v1/content"
+}
+
+### Update Created value.
+PUT http://127.0.0.1:8080/api/v1/content/3
+Content-Type: application/json
+
+{
+"id": 3,
+"title": "EDITED: My Third Blog Post",
+"description": "EDITED: Describing my Third blog post.",
+"status": "IN_PROGRESS",
+"contentType": "TALK",
+"dateCreated": "2023-04-13T14:14:03.03593",
+"dateUpdated": "2023-04-13T14:15:03.04393",
+"url": "http://127.0.0.1:8080/api/v1/content"
+}
+
+### DELETE by id.
+DELETE http://127.0.0.1:8080/api/v1/content/1

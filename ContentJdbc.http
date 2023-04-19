@@ -1,0 +1,18 @@
+GET http://localhost:8080/api/v1/content/jdbc/getContentById/5
+
+###
+GET http://localhost:8080/api/v1/content/jdbc/getAllContent
+
+###
+POST http://localhost:8080/api/v1/content/jdbc/createContent
+Content-Type: application/json
+
+{
+  "title": "Third Created Blost Post",
+  "description": "A Third article that I have created in this site.",
+  "status": "DONE",
+  "contentType": "IN_PROGRESS",
+  "dateCreated": "2023-04-15T08:01:16.18637",
+  "dateUpdated": "2023-04-15T08:01:16.18637",
+  "url": "http://127.0.0.1:8080/api/v1/content/getRandomMath"
+}

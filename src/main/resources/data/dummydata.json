@@ -1,0 +1,72 @@
+[
+  {
+    "id": null,
+    "title": "Data Loading Using Functional Interface.",
+    "description": "Shows Data Loading in spring boot using a functional interface.",
+    "status": "IDEA",
+    "contentType": "VIDEO",
+    "dateCreated": "2023-04-18T14:55:40.416937",
+    "dateUpdated": "2023-04-18T14:55:40.416949",
+    "url": "http://127.0.0.1:8080/api/v1/content"
+  },
+  {
+    "id": null,
+    "title": "Ways of Data Loading in Spring Boot.",
+    "description": "There is the Configuration way, Post construct way and this functional interface.",
+    "status": "IN_PROGRESS",
+    "contentType": "ARTICLE",
+    "dateCreated": "2023-04-18T14:55:40.416962",
+    "dateUpdated": "2023-04-18T14:55:40.416976",
+    "url": "http://127.0.0.1:8080/api/v1/content"
+  },
+  {
+    "id": null,
+    "title": "SPRING DATA UPDATED Created Blost Post",
+    "description": "A SPRING BOOT UPDATED article that I have created in this site.",
+    "status": "IDEA",
+    "contentType": "CONFERENCE_TALK",
+    "dateCreated": "2023-04-15T08:01:16.18637",
+    "dateUpdated": "2023-04-15T08:01:16.18637",
+    "url": "http://127.0.0.1:8080/api/v1/content/getRandomMath"
+  },
+  {
+    "id": null,
+    "title": "SPRING DATA UPDATED Created Blost Post",
+    "description": "A SPRING BOOT UPDATED article that I have created in this site.",
+    "status": "IDEA",
+    "contentType": "CONFERENCE_TALK",
+    "dateCreated": "2023-04-15T08:01:16.18637",
+    "dateUpdated": "2023-04-15T08:01:16.18637",
+    "url": "http://127.0.0.1:8080/api/v1/content/getRandomMath"
+  },
+  {
+    "id": null,
+    "title": "SPRING DATA UPDATED Created Blost Post",
+    "description": "A SPRING BOOT UPDATED article that I have created in this site.",
+    "status": "IDEA",
+    "contentType": "CONFERENCE_TALK",
+    "dateCreated": "2023-04-15T08:01:16.18637",
+    "dateUpdated": "2023-04-15T08:01:16.18637",
+    "url": "http://127.0.0.1:8080/api/v1/content/getRandomMath"
+  },
+  {
+    "id": null,
+    "title": "Third Created Blost Post",
+    "description": "A Third article that I have created in this site.",
+    "status": "IDEA",
+    "contentType": "CONFERENCE_TALK",
+    "dateCreated": "2023-04-15T08:01:16.18637",
+    "dateUpdated": "2023-04-15T08:01:16.18637",
+    "url": "http://127.0.0.1:8080/api/v1/content/getRandomMath"
+  },
+  {
+    "id": null,
+    "title": "Third Created Blost Post",
+    "description": "A Third article that I have created in this site.",
+    "status": "IDEA",
+    "contentType": "CONFERENCE_TALK",
+    "dateCreated": "2023-04-15T08:01:16.18637",
+    "dateUpdated": "2023-04-15T08:01:16.18637",
+    "url": "http://127.0.0.1:8080/api/v1/content/getRandomMath"
+  }
+]

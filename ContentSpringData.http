@@ -1,0 +1,38 @@
+GET http://localhost:8080/api/v1/content/springData/getContentById/2
+
+###
+GET http://localhost:8080/api/v1/content/springData/getAllContent
+
+### Find by Keyword.
+GET http://localhost:8080/api/v1/content/springData/findBy/keyword/Spring
+
+### Find by Status.
+GET http://localhost:8080/api/v1/content/springData/findBy/status/IN_PROGRESS
+
+###
+POST http://localhost:8080/api/v1/content/springData/createContent
+Content-Type: application/json
+
+{
+  "title": "Third Created Blost Post",
+  "description": "A Third article that I have created in this site.",
+  "status": "IDEA",
+  "contentType": "CONFERENCE_TALK",
+  "dateCreated": "2023-04-15T08:01:16.18637",
+  "dateUpdated": "2023-04-15T08:01:16.18637",
+  "url": "http://127.0.0.1:8080/api/v1/content/getRandomMath"
+}
+
+### Update Spring Data
+PUT http://localhost:8080/api/v1/content/springData/updateContentById/1
+Content-Type: application/json
+
+{
+  "title": "SPRING DATA UPDATED Created Blost Post",
+  "description": "A SPRING BOOT UPDATED article that I have created in this site.",
+  "status": "IDEA",
+  "contentType": "CONFERENCE_TALK",
+  "dateCreated": "2023-04-15T08:01:16.18637",
+  "dateUpdated": "2023-04-15T08:01:16.18637",
+  "url": "http://127.0.0.1:8080/api/v1/content/getRandomMath"
+}
