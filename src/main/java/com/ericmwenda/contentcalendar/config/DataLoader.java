@@ -37,9 +37,11 @@ public class DataLoader implements CommandLineRunner {
         try(InputStream inputStream = TypeReference.class.getResourceAsStream("/data/dummyData.json")){
             //This will iterate through all the json file and map all into relevant Content Objects.
             //Then save all using Spring Data method that saves all in an Iterable.
-            if(springDataRepository.count() == 0){
-                springDataRepository.saveAll(objectMapper.readValue(inputStream, new TypeReference<List<Content>>(){}));
-            }
+            
+            //if(springDataRepository.count() == 0){
+            //    springDataRepository.saveAll(objectMapper.readValue(inputStream, new TypeReference<List<Content>>(){}));
+            //}
+            springDataRepository.saveAll(objectMapper.readValue(inputStream, new TypeReference<List<Content>>(){}));
 
         }catch (Exception e){
             System.out.println("Failed to Read Data: Error = " + e);
